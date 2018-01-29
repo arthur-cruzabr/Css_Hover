@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>CSS HOVER</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #dff9fb;
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            column-count: 7;
+        }
+
+        .container-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: solid 1px red;
+            height: 300px;
+            break-inside: avoid-column;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="container-buttons">
+            <button class="btn origamid">ORIGAMID</button>
+        </div>
+        <div class="container-buttons">
+            <button class="btn underline red">ORIGAMID</button>
+        </div>
+        <div class="container-buttons">
+            <button class="btn shadow">ORIGAMID</button>
+        </div>
+         <div class="container-buttons">
+            <button class="btn background">ORIGAMID</button>
+        </div>
+    </section>
+</body>
+
+</html>
