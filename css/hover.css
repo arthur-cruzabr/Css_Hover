@@ -120,7 +120,7 @@
     box-shadow: 0px 4px 0px rgba(41, 128, 185, 1.0);
 }
 
-.btn:active {
+.btn-3d:active {
     box-shadow: none;
     transform: translateY(3px);
 }
