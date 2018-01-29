@@ -122,6 +122,7 @@
 
 .btn:active {
     box-shadow: none;
+    transform: translateY(3px);
 }
 
 /*END-BUTTON-HOVER*/
